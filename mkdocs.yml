@@ -1,0 +1,144 @@
+docs_dir: docs/
+repo_name: 'cyverse-education/usfs'
+repo_url: 'https://github.com/cyverse-education/usfs'
+
+site_name: 'USFS CyVerse Self-Guided Course'
+site_description: 'USFS CyVerse Self-Guided Course'
+site_author: 'CyVerse'
+site_url: https://cyverse-education.github.io/usfs 
+
+edit_uri: edit/main/docs
+
+# Copyright
+copyright: 'Copyright &copy; 2023 CyVerse USA'
+
+# Navigation Page
+
+nav:
+  - 'Home': index.md
+  - 'Agenda': agenda.md 
+  - 'Course Overview': step1.md
+  - 'CyVerse Background': step2.md
+  - 'Tour of Discovery Environment': step3.md  
+  - 'Data Management':
+    - 'Data Management I': step4.md
+    - 'Data Management II': step5.md
+    - 'Data Management III': step6.md
+  - 'Analyses':
+    - 'Executable Analysis': step7.md
+    - 'Interactive Analysis': step8.md
+  - 'Conclusion and Advanced Applications': final_step.md    
+
+# must also set Action to use `@nomaterial` branch instead of `@master` for material
+theme:
+  name: material
+# setting features for the navigation tab
+  features:
+    - navigation.instant
+      - navigation.expand
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: usfs-day
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Nunito
+    code: Courier
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+  favicon: assets/favicon.png
+  icon:
+    logo: material/pine-tree-fire
+
+extra_css:
+  - stylesheets/extra.css
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/
+    - icon: fontawesome/brands/github
+      link: https://github.com/cyverse-learning-material/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/cyverseorg
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/cyverse.org
+    - icon: fontawesome/brands/docker
+      link: https://harbor.cyverse.org/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/CyverseOrgProject
+  analytics:
+    provider: google
+    property: UA-72224033-6
+
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: True
