@@ -47,22 +47,11 @@ September 19-20, 2023
 | 11:45 | Wrap-up / Q&A | 
 
  
-
 ## Pre-requisites
 
 :material-check: a laptop with an active wifi connection
 
-:material-check: Create a free [ChatGPT](https://chat.openai.com){target=_blank} account
-
-**Optional**
-
-:material-check: a personal Google account (to access [Bard](https://bard.google.com){target=_blank} - suggest using [Chrome Browser](https://www.google.com/chrome/))
-
-:material-check: Install the [Microsoft Edge Browser](https://www.microsoft.com/en-us/edge){target=_blank} for using Microsoft Bing w/ Chat
-
-:heavy_dollar_sign: [ChatGPT Plus account (plugins are currently waitlisted)](https://openai.com/blog/chatgpt-plugins){target=_blank}
-
-:heavy_dollar_sign: [OpenAI API account (currently waitlisted)](https://share.hsforms.com/1u4goaXwDRKC9-x9IvKno0A4sk30){target=_blank} 
+:material-chekc: a CyVerse account
 
 ## Code of Conduct
 
