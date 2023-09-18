@@ -44,7 +44,7 @@ There are a few common categories of featured interactive applications:
     - LANDIS-II Command Line Interface: <a href="https://de.cyverse.org/apps/de/098f69c2-1d8e-11ed-9071-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
 
 2.  Integrated Development Environments (IDE)
-	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
+	- <a href="https://de.cyverse.org/analyses/1f3d3938-5673-11ee-b112-008cfa5ae621" target="_blank"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
 	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
  	- <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
   
@@ -66,16 +66,6 @@ CyVerse hosts the container recipes (Dockerfiles) of its featured apps on GitHub
 </div>
 
 ------------------------------------------------------------------------
-
-## Input Data
-
-| Location | File | Example |
-|----------|------|---------|
-| `muscle_output/`  | logs folder | [View the example `muscle_output/`](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc/tutorial_folder/results/muscle_output){target=_blank} |
-| `clstalw.aln` |  `.aln` are multi-alignment files |
-| `fasta.aln` | | 
-| `phylip_interleaved.aln` | | 
-| `phylip_sequential.aln` | |
 
 ## Getting VICE Access
 
