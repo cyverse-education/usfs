@@ -1,57 +1,51 @@
 # Workshop Agenda
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-### Dates
-
 September 19-20, 2023
 
 08:00 AM - 13:00 PM Pacific Daylight Time (PDT)
 
-### Location 
-
-Virtual ([Zoom Link]())
-
-
 #### Instructors(s): 
 
-[Michele Cosi](https://cosimichele.github.io/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0001-7609-1939){target=_blank}
+- [Michele Cosi](https://cosimichele.github.io/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0001-7609-1939){target=_blank}
 
-[Jeffrey K. Gillan PhD](https://www.gillanscience.com/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-0731-3048){target=_blank}
+- [Jeffrey K. Gillan PhD](https://www.gillanscience.com/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-0731-3048){target=_blank}
 
-[Carlos Lizárraga-Celaya PhD](https://carloslizarragac.github.io/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-0893-4268){target=_blank}
+- [Carlos Lizárraga-Celaya PhD](https://carloslizarragac.github.io/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-0893-4268){target=_blank}
 
-[Tyson Lee Swetnam PhD](https://tysonswetnam.com/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-6639-7181){target=_blank}
+- [Tyson Lee Swetnam PhD](https://tysonswetnam.com/){target=_blank} [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-6639-7181){target=_blank}
 
 
 ## Agenda Tuesday 9/19
 
 | :fontawesome-solid-hourglass-half: | Lessons | Instructor | Link |
 |------------------------------------|---------|------------|------|
-| 08:00 | Introductions | Tyson | [Presentation: CyVerse](https://tinyurl.com/usfs-cyverse){target=_blank} |
-| 08:30 | [Session 1: User Portal](https://learning.cyverse.org/account/){target=_blank} | Tyson | 
+| 08:00 | Introduction | Tyson | [Presentation: CyVerse](https://tinyurl.com/usfs-cyverse){target=_blank} |
+| 08:30 | [Session 1: Account Creation & User Portal](https://learning.cyverse.org/account/){target=_blank} | Tyson |[Workshop sign-up](https://user.cyverse.org/workshops/130){target=_blank} |
 | 09:00 | Break | |
-| 09:05 | [Session 2: Discovery Environment (DE) UI](https://learning.cyverse.org/de/) |  Jeff |
-| 09:30 | [Session 4: DE Interactive Apps](https://learning.cyverse.org/vice/about/) |  |
-| 10:00 | Break | | 
-| 11:00 | [Session 5: Data Store I (DE)](step4.md) | Jeff | 
-| 11:30 | [Session 6: Data Store II (CyberDuck)](step5.md) | Michele |
-| 11:50 | Wrap-up / Q&A |  
+| 09:05 | [Session 2: Discovery Environment (DE) UI](step3.md) |  Jeff | [DE User Manual](https://learning.cyverse.org/de/){target=_blank} |
+| 09:30 | [Session 3: Data Store I](step4.md) | Tyson | 
+| 10:00 | Break | | |
+| 10:05 | [Session 4: Data Store II](step5.md) | Tyson | 
+| 11:00 | Break | | |
+| 11:05 | [Session 5: DE Interactive Analyses](step8.md) | Michele | |
+| 11:45 | Wrap-up / Q&A |  |
 
 
 ## Agenda Wednesday 9/20
 
 | :fontawesome-solid-hourglass-half: | Lessons | Instructor | Link |
 |------------------------------------|---------|------------|------|
-| 08:00 | Review Day 1 | Tyson |  |
-| 08:10 | [Session 7: Data Store III (Metadata)](step6.md)) | Tyson | 
-| 08:30 | [Session 2: Discovery Environment (DE) Analysis](step7.md) |  Jeff 
+| 08:00 | Review Day 1 Q&A | Tyson |  |
+| 08:15 | [Session 6: Data Store III (Metadata)](step6.md) | Tyson | 
 | 09:00 | Break |  |
-| 09:05 | [Session 3: DE UI]() | Michele & Tyson  |
-| 11:00 | [Session 4: DE Apps](plugins.md) |  |  
-| 12:00 | [Session 5: Data Store I (DE)](plugins.md) | Jeff | 
-| 12:30 | [Session 6: Data Store II (CyberDuck)](plugins.md) | Michele |
-| 12:50 | Wrap-up / Q&A |  
+| 09:05 | [Session 7: Exploring VICE Apps ](step8.md) |  Jeff 
+| 10:00 | Break | |
+| 10:05 | [Session 8: Create Tools & Apps](https://learning.cyverse.org/de/create_apps/) | Tyson |
+| 10:30 | [Session 9: Teams & Communities](https://learning.cyverse.org/ds/teams/) | | |
+| 11:00 | Break | | |
+| 11:05 | [Session 10: Cloud-Native Services]() | | |
+| 11:45 | Wrap-up / Q&A | 
+
  
 
 ## Pre-requisites

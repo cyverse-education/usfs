@@ -12,25 +12,39 @@
 
 !!! tip "Learning Objectives"
 
-    -   Describe the components of FAIR data
-    -   Describe the Data Lifecycle
-    -   Download data from the Data Store
-    -   Create a README file and upload it to the Data Store
+    - Create private directories in the Data Store using the Discovery Environment (DE) User Interface (UI)
+    - Create, upload & download data from DE UI
+    - Understand file permissions in the DE UI
+    - Download data from the Data Store
+
 
 **Description:**
 
-In this module, we introduce the concepts of FAIR data and the Data Lifecycle and demonstrate how to move data between your computer and the CyVerse Data Store.
+In this module, we introduce the Data Store and its management in the Discovery Environment
 
 ---
+
+**TODO: Update Video URL with recording from workshop**
 
 > <div class="video-container">
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/yDptqWLfxXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > </div>
 
-Here is a link to the [FAIR Data assessment tool](https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/){target=_blank} mentioned in the video.
+------------------------------------------------------------------------
 
+## Create a Directory in your personal account space
+
+In your :material-home: home create a folder named `tutorial_folder` by clicking on the :fontawesome-solid-folder-plus: folder with a + icon. 
+
+Inside that folder create two additional folders: `raw_data/` and `results/`
 
 ------------------------------------------------------------------------
+
+**Output/Results**
+
+| Output | Description |
+|--------|-------------|
+| `/tutorial folder/` <br> `tutorial_folder/raw_data` <br> `tutorial_folder/results` | - We will cover in detail how to create and share folders in the next steps of the course. <br> - These will contain example data from future steps in the tutorial |
 
 ## Downloading data from the Discovery Environment
 
@@ -44,47 +58,62 @@ Here is a link to the [FAIR Data assessment tool](https://ardc.edu.au/resources/
 
 3. In the top left of the page, you should see your username with a dropdown arrow next to it; Click on your username, then click Community Data in the dropdown menu.
 
-4. From the **Community Data** directory, scroll down until you find `cyverse_training/` folder, and click on it. Then navigate to the `cyverse_mooc/` folder, then `muscle_3_8_31/01_muscle_input/`, which contains example data. This is the full file path, which should show up as part of your URL:
+4. From the **Community Data** directory, scroll down until you find `usda/` folder, and click on it. Then navigate to the `/usda/usfs/r3/coconino/training_data/` folder, then `mahan/`, which contains the sample data. 
 
-```
-/iplant/home/shared/cyverse_training/cyverse_mooc/muscle_3_8_31/01_muscle_input/
-```
+??? Info "Access points for data in the Data Store"
 
-5.  Click (Select) the checkbox next to the `DE_sample_plants.fas` file to select it.
+    Path to the iRODS data store via [`iCommands`](https://learning.cyverse.org/ds/icommands/){target=_blank} or [`GoCommands`](https://learning.cyverse.org/ds/gocommands/){target=_blank}
 
-6.  Click on the **More Actions** button on the upper right and select the **Download** option to download the file to your local computer.
+    ```
+    /iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan/
+    ```
+
+    `https://de.cyverse.org` - Discovery Environment
+
+    [https://de.cyverse.org/data/ds/iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan](https://de.cyverse.org/data/ds/iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan){target=_blank}
+
+    `https://data.cyverse.org` - WebDav Interface
+
+    [https://data.cyverse.org/dav-anon/iplant/projects/usda/usfs/r3/coconino/training_data/mahan/](https://data.cyverse.org/dav-anon/iplant/projects/usda/usfs/r3/coconino/training_data/mahan/){target=_blank}
+
+1.  Click (Select) the checkbox next to the `ept2copc.json` file to select it.
+
+2.  Click on the **More Actions** button on the upper right and select the **Download** option to download the file to your local computer.
+
+3. Check your Downloads directory on your personal computer.
 
 ??? Tip "Downloads in the browser"
-    We don't recommend downloading many (more than 10) or large (more than 2GB) files directly from the Discovery Environment at one time. 
+
+    We don't recommend downloading many (>10) files or large (>2GB) files directly from the Discovery Environment. 
     
-    Since files transferred in this way make use of HTML protocols these are slower and more often subject to failure for larger data sets. 
+    Because files transferred in this way make use of `https://` protocols these are slower and more often subject to failure for larger data sets. 
     
-    [Cyberduck](https://cyberduck.io){target=_blank} or [iCommands](https://docs.irods.org/master/icommands/user/){target=_blank} (discussed below and in the next section) are recommended for these uses.
+    [CyVerse Cyberduck Profile](https://learning.cyverse.org/ds/cyberduck/){target=_blank}, [GoCommands](https://learning.cyverse.org/ds/gocommands/){target=_blank} or [iCommands](https://docs.irods.org/master/icommands/user/){target=_blank} (discussed below and in the next section) are recommended for these uses.
 
-## Uploading a File to the Discovery Environment
+## Uploading Files to the Data Store via Discovery Environment
 
-1. On your computer, use any text editor to create a file called `README.txt`. You may wish to save it in the same place you have the `DE_sample_plants.fas` file (i.e. your Desktop, Downloads, etc.).
+1. On your local computer, use any text editor to create a file called `README.md`. You may wish to save it in the same place you have the `ept2copc.json` file (i.e. your Desktop, Downloads Folder, etc.).
 
-2. In the `README.txt` file, add several pieces of information about the `DE_sample_plants.fas` file you just downloaded:
+2. In the `README.md` file, add several pieces of information about the `ept2copc.json` file you just downloaded:
 
 ``` 
-   Name of file: `DE_sample_plants.fas`
-   Type of file: `FASTA` file containing DNA sequences
-   Type of organism: plants
+   Name of file: `ept2copc.json`
+   Type of file: `JSON` file containing PDAL pipeline scripts
+   Type of data: lidar .las or .laz
 ```
 Adding a simple README with this sort of information can quickly make your data more [FAIR](https://www.go-fair.org/fair-principles/){target=_blank}.
     
-??? Note "Setting file type"
+??? Note "Discovery Environment file"
 
-    Make sure you save this as a plain text file (`.txt`), other file formats (e.g. `.docx`) may not be rendered in the Discovery Environment editor.
+    Make sure you save this as a markdown text file (`.md`), other file formats (e.g. `.docx`) may not be rendered in the Discovery Environment's file editor.
 
 3.  In the Discovery Environment, click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} to access your home folder; you can access this from the same dropdown menu where you previously selected **Community Data**.
 
 4.  Navigate to the `tutorial_folder` directory you created earlier.
 
-5.  Click the **Upload** icon in the upper right, then select **Browse Local**. Then navigate to your `README.txt` file and select it.
+5.  Click the **Upload** icon in the upper right, then select **Browse Local**. Then navigate to your `README.md` file and select it.
 
-6.  It may take a moment, but your `README.txt` file should now be
+6.  It may take a moment, but your `README.md` file should now be
     uploaded to your `tutorial_folder` on the Data Store; you may
     need to refresh your web browser to see the update.
 
@@ -94,8 +123,8 @@ Adding a simple README with this sort of information can quickly make your data 
 
 | Location | File | Example |
 |--------|-------------|---------|
-| On CyVerse | `README.txt` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |
-| On your Computer | `DE_sample_plants.fas` | ||                      
+| On CyVerse | `README.md` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan/){target=_blank} |
+| On your Computer | `ept2copc.json`, `README.md` | ||                      
 
 ### Self Assessment Questions
 

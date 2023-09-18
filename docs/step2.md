@@ -3,8 +3,7 @@
 !!! tip "Learning Objectives"
 
     - Know the background of the CyVerse project
-    - Understand the basic capabilities of the CyVerse platform
-    - Understand the capabilities and limitations of the major international installations (US/UK/Austria)
+    - Understand basic capabilities of the CyVerse platform
 
 **Description:**
 
@@ -14,7 +13,7 @@ on how different CyVerse installations work.
 
 ------------------------------------------------------------------------
 
-## CyVerse Background Videos and Slides
+## Videos and Slides
 
 Watch the video for this section and complete the self-assessment
 questions.
@@ -52,15 +51,6 @@ questions.
         CyVerse US is the original and main CyVerse platform, the one you will visit if you are using any platform served by cyverse.org. 
         CyVerse US generally has the broadest set of tools and services. 
         While anyone can get a free account, there may be some limitations for non-US users.
-
-
-??? Tip
- 
-    **See other versions of this documentation (CyVerse UK and CyVerse Austria)**
-    In the lower-left hand side of the screen, change the version of this
-    documentation from cyverse-us to one of the other documentation sets
-    developed for this online guide (*cyverse-uk* or *cyverse-at*) to see
-    specifics for those installations.
 
 -----------------------------------------------------------------------
 

@@ -19,8 +19,8 @@
 
 | Location | File | Example |
 |--------|-------------|---------|
-| On CyVerse | `README.txt` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |
-| On your Computer | `DE_sample_plants.fas` | ||                      
+| On CyVerse | `README.md` | View the data in the [Discovery Environment](https://de.cyverse.org/data/ds/iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan){target=_blank}, or [WebDav](https://data.cyverse.org/dav-anon/iplant/projects/usda/usfs/r3/coconino/training_data/mahan/){target=_blank} |
+| On your Computer | `` | ||                      
 
 ## Setting up Cyberduck
 
@@ -74,7 +74,7 @@ You should now be connected to the Data Store and viewing the contents of your h
 
 | Location | File | Example |
 |--------|-------------|---------|
-| On CyVerse | `README.txt` & `DE_sample_plants.fas` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |
+| On CyVerse | `README.md` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |
 
 
 ------------------------------------------------------------------------

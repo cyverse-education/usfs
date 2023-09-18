@@ -55,7 +55,6 @@ use for subsequent modules.
     - ![team]{width=20} **Teams** - Organize collaborators and sharing
     - ![bank]{width=20} **Collections** - Public collections of applications and data
     - ![help]{width=20} **Help** - Help and support
-
     
 ??? Tip
     
@@ -70,21 +69,6 @@ use for subsequent modules.
     c.  Then select "Community Data" folder
 
     d.  "Trash"
-
-
-??? success "Try it!"
-
-    In your home folder create a folder named `tutorial_folder`.
-
-    Inside that folder create two additional folders: `raw_data/` and `results/`
-
-------------------------------------------------------------------------
-
-**Output/Results**
-
-| Output | Description |
-|--------|-------------|
-| `/tutorial folder/` <br> `tutorial_folder/raw_data` <br> `tutorial_folder/results` | - We will cover in detail how to create and share folders in the next steps of the course. <br> - These will contain example data from future steps in the tutorial |
 
 ------------------------------------------------------------------------
 

@@ -1,3 +1,5 @@
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
 # **CyVerse Self-Guided Course** 
 
 This self-guided course will take you through the basics of using CyVerse USA.
@@ -46,9 +48,9 @@ following services*
 
 | Prerequisite | Preparation Notes | Link/Download |
 |--------------|-------------------|---------------|
-| CyberDuck | 3rd party software for upload/download to Data Store | [Download Windows & Mac OS X only](https://cyberduck.io){target=_blank} |
-|iCommands | 3rd party software for upload/download to Data Store | [Download Linux, Mac OS X](https://learning.cyverse.org/ds/icommands/){target=_blank} |
-| gocommands | 3rd party software for upload/download to Data Store | [Download Linux, Mac OS X](https://github.com/cyverse/gocommands){target=_blank} |
+| [CyberDuck](https://learning.cyverse.org/ds/cyberduck/){target=_blank} | 3rd party software for upload/download to Data Store | [Windows, Mac OS X](https://cyberduck.io){target=_blank} |
+| [GoCommands](https://learning.cyverse.org/ds/gocommands/) | CyVerse created software for upload/download to Data Store | [Windows, Linux, Mac OS X](https://github.com/cyverse/gocommands){target=_blank} |
+|[iCommands](https://learning.cyverse.org/ds/icommands/){target=_blank} | iRODS Consortium software for upload/download | [Linux, Mac OS X](https://docs.irods.org/4.3.0/icommands/user/){target=_blank} |
 
 ### Platform(s)
 

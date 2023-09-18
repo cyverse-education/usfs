@@ -30,7 +30,7 @@ In this module, we introduce how to apply metadata in the Discovery Environment 
 
 | Location | File | Example |
 |--------|-------------|---------|
-| On CyVerse | `README.txt` & `DE_sample_plants.fas` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |                    
+| On CyVerse | `README.md` & `` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |                    
 
 ---------------------------------------------------------------
 
@@ -38,7 +38,7 @@ In this module, we introduce how to apply metadata in the Discovery Environment 
 
 1.  If necessary, log into the CyVerse .
 2.  Click the (Data Icon) to browse your collection of files in the CyVerse Data Store.
-3.  Navigate to the `raw_data` folder inside `tutorial_folder` and select (checkbox) the `DE_sample_plants.fas` file uploaded previously.
+3.  Navigate to the `raw_data` folder inside `tutorial_folder` and select (checkbox) the `ept2copc.json` file uploaded previously.
 4.  Under the **More Actions** menu, click on the **Metadata** choice.
 
 You will see existing metadata for the file/folder in the Attribute, Value, Unit (AVU) format.
@@ -62,7 +62,7 @@ The spreadsheet can be designed to follow a metadata format or standard, or cont
 
 | Output | Description |
 |--------| --- |
-| `DE_sample_plants.fas` | Contains genetic information |
+| `ept2copc.json` | |
 
 Although the file itself has not been edited, viewing the metadata in the Discovery Environment lets you view all annotations you have made to the file. View with metadata applied (you will need to view the file in the Discovery Environment to view the associated metadata; select the file and click **More Actions** and then **Metadata**).
 
@@ -75,13 +75,13 @@ Although the file itself has not been edited, viewing the metadata in the Discov
 5.  Next, under 'Permissions' choose what permission you want to grant the person you are sharing this file with.
 6.  Once you are finished, click Done to begin sharing. The user will be notified that a file has been shared with them.
 
-!!! Tip "See more on in the [Data Store Guide](https://learning.cyverse.org/ds/)."
+!!! Tip "See more on in the [Data Store Guide](https://learning.cyverse.org/ds/share/#share-a-filefolder-in-the-discovery-environment-with-another-cyverse-user-or-group){target=_blank}."
 
 ------------------------------------------------------------------------
 
 ### Self Assessment Questions
 
-??? Question "Use the `readme.txt` file from Data Management I and apply the metadata correctly to your file using the DE"
+??? Question "Use the `README.md` file from [Data Management I](step4.md) and apply the metadata correctly to your file using the DE"
 
     ??? Success "Answer"
 

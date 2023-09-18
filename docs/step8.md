@@ -39,7 +39,9 @@ The Visual Interactive Computing Environment [![][vice]{width=30}](https://user.
 There are a few common categories of featured interactive applications:
 
 1.  Terminal Access
- 	- <a href="https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
+ 	- Basic Ubuntu Terminal: <a href="https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
+
+    - LANDIS-II Command Line Interface: <a href="https://de.cyverse.org/apps/de/098f69c2-1d8e-11ed-9071-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
 
 2.  Integrated Development Environments (IDE)
 	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
@@ -47,7 +49,8 @@ There are a few common categories of featured interactive applications:
  	- <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
   
 3.  Web Server Applications
-  	- StreamlitApps, ShinyApps, WebGL, HTML5, etc. 
+  	
+    - StreamlitApps, ShinyApps, WebGL, HTML5, etc. 
 
 4.  Virtual Desktop Environments (e.g., Apache Guacamole, NoVNC, Xpra)
 	- <a href="https://de.cyverse.org/apps/de/b5e65b52-0de5-11ee-9b7a-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=X.Org"></a>
