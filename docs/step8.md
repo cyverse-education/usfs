@@ -44,7 +44,7 @@ There are a few common categories of featured interactive applications:
     - LANDIS-II Command Line Interface: <a href="https://de.cyverse.org/apps/de/098f69c2-1d8e-11ed-9071-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
 
 2.  Integrated Development Environments (IDE)
-	- <a href="https://de.cyverse.org/analyses/1f3d3938-5673-11ee-b112-008cfa5ae621" target="_blank"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
+	- <a href="https://de.cyverse.org/apps/de/3031d3b0-15e7-11ee-847b-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
 	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
  	- <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
   
@@ -52,12 +52,13 @@ There are a few common categories of featured interactive applications:
   	
     - StreamlitApps, ShinyApps, WebGL, HTML5, etc. 
 
-4.  Virtual Desktop Environments (e.g., Apache Guacamole, NoVNC, Xpra)
-	- <a href="https://de.cyverse.org/apps/de/b5e65b52-0de5-11ee-9b7a-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=X.Org"></a>
-	- <a href="https://de.cyverse.org/apps/de/4affa3c0-1362-11ee-bf34-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/QGIS-22.04-green?style=plastic&logo=qgis"></a>
+4.  Virtual Desktop Environments (e.g., Apache Guacamole, NoVNC, Kasm, Xpra)
+	- <a href="https://de.cyverse.org/apps/de/26e8dca0-550b-11ee-8aa2-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=X.Org"></a>
+	- <a href="https://de.cyverse.org/apps/de/024c2762-5650-11ee-b5a4-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/QGIS-22.04-green?style=plastic&logo=qgis"></a>
 
-CyVerse hosts the container recipes (Dockerfiles) of its featured apps on GitHub: <https://github.com/cyverse-vice/>. These images are maintained by CyVerse staff.
+CyVerse hosts the container recipes (Dockerfiles) of its featured apps on :material-github: GitHub: <https://github.com/cyverse-vice/>. 
 
+These images are maintained by CyVerse staff.
 
 ---
 
@@ -87,20 +88,13 @@ To minimize inappropriate use, VICE is a restricted service, currently accessibl
 
     CyVerse maintains featured apps from the [Rocker-Project](https://rocker-project/images){target=_blank}, [Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank}, and [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank}
 
-    | quick launch | Base Images |
-    | ------------ |-------------|
-    | <a href="https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> | [Rocker-Project](https://rocker-project/images){target=_blank} |
-    | <a href="https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a> |[Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank} |
-    | <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a> | [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank} |
-
-
-    These containers are built from community maintianed container stacks, with a few additonal packages for use in CyVerse DE.
+These containers are built from community maintianed container stacks, with a few additonal packages for use in CyVerse DE.
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
 2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `results/` folder in the` tutorial_folder/`; click the (Add Folder button) and create a folder called `rocker_output/` inside your tutorial folder.
 
-3.  Use this Quick Launch link <a href="https://de.cyverse.org/apps/de/48b6e7ae-8b64-11ec-92dc-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> or click on [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} to launch thev featured **Rocker RStudio Latest** App. You can also use the DE search bar to search for this application in the Apps category.
+3.  Use this Quick Launch link <a href="https://de.cyverse.org/apps/de/3031d3b0-15e7-11ee-847b-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/geospatial-4.3.1-blue?style=plastic&logo=rstudio"></a> or click on [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} to launch thev featured **Rocker RStudio Latest** App. You can also use the DE search bar to search for this application in the Apps category.
 
 4. Launch the application and adjust the following:
     
@@ -140,29 +134,10 @@ From the R console, enter the following commands:
 
 ``` {R title="script.r"}
 # install and load the needed R library
-install.packages("ape")
-library(ape)
 
-#Read in the aligned DNA fasta file
-alignment <- read.FASTA ("~/work/data/input/muscle_output/fasta.aln", type="DNA")
-
-# Create a distance matrix for the sequences
-dist_mtrx <- dist.dna(alignment)
-
-#Compute a neighbor-joining tree
-nj_tree <- nj(dist_mtrx)
-
-# plot the tree
-plot.phylo(nj_tree)
-
-# save the tree to a file
-write.tree(nj_tree, file = "~/work/data/output/tree.newick")
-
-#OR save to your CyVerse Data Store directly in the file browser
-write.tree(nj_tree, file = "~/work/home/YOUR_CYVERSE_USERNAME/tutorial_folder/rocker_output/tree.newick")
 ```
 
-You should have visualized the resulting tree and also created the file `tree.newick` in your work directory.
+You should have visualized the resulting tree and also created the file `` in your work directory.
 
 ## Terminating your VICE session and saving work to the Data Store
 
@@ -172,7 +147,7 @@ Once you have completed your work, you can save your work to the Data Store and 
 
     VICE applications typically have a 48-hour run time. 
     
-    Unless you request an extension, your application will save data in the `~/work/data/outputs` folder to your `analyses/` folder when it terminates. 
+    Unless you request an extension, your application will only save data in the `~/data-store/data/outputs` folder to your `analyses/` folder when it terminates. 
     
     It is recommended that you save your work to the Data Store before time expires.
 
@@ -186,7 +161,7 @@ Once you have completed your work, you can save your work to the Data Store and 
 
     You don't have to terminate your analyses to save your work to the Data Store. 
     
-    From within the RStudio environment using the terminal, you can use iCommands to transfer data (See Data Store Guide on iCommands). 
+    From within the RStudio environment using the terminal, you can use goCommands to transfer data (See [Data Store Guide on goCommands](https://learning.cyverse.org/ds/gocommands/){target=_blank}). 
 
     RStudio does allow you to download files and plots directly back to your local computer. Use the "Export" features present in the file pane.
 
