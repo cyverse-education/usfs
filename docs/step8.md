@@ -44,9 +44,9 @@ There are a few common categories of featured interactive applications:
     - LANDIS-II Command Line Interface: <a href="https://de.cyverse.org/apps/de/098f69c2-1d8e-11ed-9071-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
 
 2.  Integrated Development Environments (IDE)
-	- <a href="https://de.cyverse.org/apps/de/3031d3b0-15e7-11ee-847b-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
-	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
- 	- <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
+	- <a href="https://de.cyverse.org/apps/de/3031d3b0-15e7-11ee-847b-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/RStudio-4.3.1-blue?style=plastic&logo=r"></a>
+	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-4.0.1-orange?style=plastic&logo=jupyter"></a>
+ 	- <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-1.81.0-6C33AF?style=plastic&logo=visualstudiocode"></a>
   
 3.  Web Server Applications
   	
@@ -114,7 +114,7 @@ These containers are built from community maintianed container stacks, with a fe
 
     Even when the application has entered 'Running' status, you may still have to wait some additional time for input data to be transferred onto the resource with the new container. 
 
-## Completing our analysis in R
+## Completing our analysis in RStudio
 
 Once you have your RStudio session, it will behave the same as a RStudio session running on your local Desktop. 
 
@@ -132,12 +132,29 @@ Since this session is running on CyVerse hardware, transferring large data will 
 
 From the R console, enter the following commands:
 
-``` {R title="script.r"}
-# install and load the needed R library
+``` {sh title="BASH script.sh"}
+# Create COG with gdal_translate
+gdal_translate https://data.cyverse.org/dav-anon/iplant/home/tswetnam/jemez/suas/Jemez_drone_Oct2020/7Springs/7springs_CHM.tif 7springs_CHM.cog.tif \
+-b 1 -b 2 -b 3 \
+-of COG \
+-co TILING_SCHEME=GoogleMapsCompatible \
+-co OVERVIEW_QUALITY=100 \
+-co COMPRESS=JPEG \
+-co QUALITY=100
 
+# add overviews
+gdaladdo \
+--config COMPRESS_OVERVIEW JPEG \
+--config JPEG_QUALITY_OVERVIEW 100 \
+--config PHOTOMETRIC_OVERVIEW YCBCR \
+--config INTERLEAVE_OVERVIEW PIXEL \
+-r average \
+7springs_CHM.cog.tif \
+2 4 8 16
 ```
+larger file: https://data.cyverse.org/dav-anon/iplant/home/tswetnam/jemez/suas/Jemez_drone_Oct2020/7Springs/7springs_ortho.tif
 
-You should have visualized the resulting tree and also created the file `` in your work directory.
+You can now visualize the resulting canopy height model or ortho mosaic in your RStudio
 
 ## Terminating your VICE session and saving work to the Data Store
 
