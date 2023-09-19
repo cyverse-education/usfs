@@ -24,8 +24,6 @@ In this module, we introduce the Data Store and its management in the Discovery 
 
 ---
 
-**TODO: Update Video URL with recording from workshop**
-
 > <div class="video-container">
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/yDptqWLfxXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > </div>
