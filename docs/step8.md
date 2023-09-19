@@ -135,7 +135,7 @@ From the R console, enter the following commands:
 ``` {sh title="BASH script.sh"}
 # Create COG with gdal_translate
 gdal_translate https://data.cyverse.org/dav-anon/iplant/home/tswetnam/jemez/suas/Jemez_drone_Oct2020/7Springs/7springs_CHM.tif 7springs_CHM.cog.tif \
--b 1 -b 2 -b 3 \
+-b 1 \
 -of COG \
 -co TILING_SCHEME=GoogleMapsCompatible \
 -co OVERVIEW_QUALITY=100 \
@@ -152,7 +152,7 @@ gdaladdo \
 7springs_CHM.cog.tif \
 2 4 8 16
 ```
-larger file: https://data.cyverse.org/dav-anon/iplant/home/tswetnam/jemez/suas/Jemez_drone_Oct2020/7Springs/7springs_ortho.tif
+larger file: https://data.cyverse.org/dav-anon/iplant/home/tswetnam/jemez/suas/Jemez_drone_Oct2020/7Springs/7springs_ortho.tif (if you use this file, set up 3 bands `-b 1 -b 2 -b 3`)
 
 You can now visualize the resulting canopy height model or ortho mosaic in your RStudio
 
