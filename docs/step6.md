@@ -28,9 +28,9 @@ In this module, we introduce how to apply metadata in the Discovery Environment 
 
 ## Input Data:
 
-| Location | File | Example |
+| Location | Files | Example |
 |--------|-------------|---------|
-| On CyVerse | `README.md` & `` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |                    
+| On CyVerse | `README.md` `ept2copc.json` | View the [example folder](https://data.cyverse.org/dav-anon/iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan/){target=_blank} |                    
 
 ---------------------------------------------------------------
 
@@ -59,10 +59,6 @@ It is possible to add or edit metadata on multiple files in the Discovery Enviro
 The spreadsheet can be designed to follow a metadata format or standard, or contain whatever metadata entries you want associated with a set of files. See the for more details.
 
 ## Output/Results
-
-| Output | Description |
-|--------| --- |
-| `ept2copc.json` | |
 
 Although the file itself has not been edited, viewing the metadata in the Discovery Environment lets you view all annotations you have made to the file. View with metadata applied (you will need to view the file in the Discovery Environment to view the associated metadata; select the file and click **More Actions** and then **Metadata**).
 
@@ -122,10 +118,6 @@ Although the file itself has not been edited, viewing the metadata in the Discov
 
   - Search for an answer:
      [CyVerse Learning Center](https://learning.cyverse.org){target=_blank}
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/){target=_blank}
   - Send feedback: <tutorials@cyverse.org>
   
 ------------------------------------------------------------------------

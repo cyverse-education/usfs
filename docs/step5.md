@@ -20,7 +20,7 @@
 | Location | File | Example |
 |--------|-------------|---------|
 | On CyVerse | `README.md` | View the data in the [Discovery Environment](https://de.cyverse.org/data/ds/iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan){target=_blank}, or [WebDav](https://data.cyverse.org/dav-anon/iplant/projects/usda/usfs/r3/coconino/training_data/mahan/){target=_blank} |
-| On your Computer | `` | ||                      
+| On your Computer | | select any file | |                    
 
 ## Setting up Cyberduck
 
@@ -74,8 +74,7 @@ You should now be connected to the Data Store and viewing the contents of your h
 
 | Location | File | Example |
 |--------|-------------|---------|
-| On CyVerse | `README.md` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |
-
+| On CyVerse | `README.md` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/usda/usfs/r3/coconino/training_data){target=_blank} |
 
 ------------------------------------------------------------------------
 
@@ -117,12 +116,8 @@ You should now be connected to the Data Store and viewing the contents of your h
 **Fix or improve this documentation**
 
   - Search for an answer:
-     [CyVerse Learning Center](https://learning.cyverse.org)
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org>
+     [CyVerse Learning Center](https://learning.cyverse.org){target=_blank}
+  - Send feedback: <tutorials@cyverse.org>
   
 ------------------------------------------------------------------------
 

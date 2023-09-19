@@ -178,12 +178,8 @@ Adding a simple README with this sort of information can quickly make your data 
 **Fix or improve this documentation**
 
   - Search for an answer:
-     [CyVerse Learning Center](https://learning.cyverse.org)
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org>
+     [CyVerse Learning Center](https://learning.cyverse.org){target=_blank}
+  - Send feedback: <tutorials@cyverse.org>
   
 ------------------------------------------------------------------------
 

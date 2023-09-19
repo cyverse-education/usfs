@@ -20,17 +20,16 @@ Who to contact if this guide needs fixing. You can also email <learning@cyverse.
 
 ## Table of Contents
 
-* [Tutorial home](index.md)
 * [Agenda](agenda.md) 
 * [Course Overview](step1.md)
 * [CyVerse Background](step2.md)
-* [Tour of the Discovery Environment](step3.md)
+* [Tour of the Discovery Environment (DE)](step3.md)
 * [Data Management I](step4.md) 
 * [Data Management II](step5.md) 
 * [Data Management III](step6.md) 
-* [Analysis with the Discovery Environment](step7.md)
-* [Interactive Analyses](step8.md) 
-* [Conclusion and Advanced Applications](final_step.md) 
+* [DE: Executable Analyses](step7.md)
+* [DE: Interactive Analyses](step8.md) 
+* [Advanced Applications](final_step.md) 
 
 ## Perequisites
 
@@ -58,7 +57,7 @@ following services*
 
 | Platform | Interface | Link  | Platform Tour |
 |----------|-----------|-------|---------------|
-| [![DS](assets/de/menu_items/dataIcon.png){width="20"}](https://de.cyverse.org/data){target=_blank} [Data Store](https://de.cyverse.org/data){target=_blank} | GUI & CLI | [Data Store](https://cyverse.org/data-store){target=_blank} | [Data Store Guide]() |              
+| [![DS](assets/de/menu_items/dataIcon.png){width="20"}](https://de.cyverse.org/data){target=_blank} [Data Store](https://de.cyverse.org/data){target=_blank} | GUI & CLI | [Data Store](https://cyverse.org/data-store){target=_blank}{target=_blank} | [Data Store Guide]() |              
 | [![DE](assets/de/logos/deIcon.png){width="20"}](https://de.cyverse.org/data){target=_blank} [Discovery Environment](https://de.cyverse.org/de){target=_blank} | GUI | [DE](https://cyverse.org/discovery-environment) | [DE Guide](){target=_blank} |         
 
 ### Application(s) used
@@ -66,9 +65,10 @@ following services*
 **Discovery Environment App(s):**
 
 | App Name | Version | Description | App Link | Notes/Other |
-|----------|---------|-------------|----------|-------|
-| Muscle | 3.8.31 | [Multiple Sequence Alignment](https://www.ebi.ac.uk/Tools/msa/muscle/){target=_blank} | <a href="https://de.cyverse.org/apps/de/9b41c9e4-5031-4a49-b1cb-c471335df16e/launch" target="_blank"><img src="https://img.shields.io/badge/Muscle-3.8.31-lightblue?style=plastic"></a> | [MUSCLE Manual](https://drive5.com/muscle/manual/){target=_blank}        
-| RStudio Verse | Latest | [Rocker-Project RStudio](https://rocker-project.org/images){target=_blank} | <a href="https://de.cyverse.org/apps/de/48b6e7ae-8b64-11ec-92dc-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> | [CyVerse Docker Image](https://https://github.com/cyverse-vice/rstudio-verse)
+|----------|---------|-------------|----------|-------|      
+| RStudio Geospatial | `4.3.1` | [Rocker-Project RStudio](https://rocker-project.org/images){target=_blank} | <a href="https://de.cyverse.org/apps/de/3031d3b0-15e7-11ee-847b-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/geospatial-4.3.1-blue?style=plastic&logo=rstudio"></a> | [:material-github: Dockerfile](https://github.com/cyverse-vice/rstudio-geospatial){target=_blank} |
+| Jupyter Lab Datascience | `4.0.1` | [Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank} | <a href="https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a> | [:material-github: Dockerfile](https://github.com/cyverse-vice/jupyterlab-datascience){target=_blank} |
+| Ubuntu Desktop | `22.04` | [Kasm Ubuntu](https://hub.docker.com/r/kasmweb/ubuntu-jammy-desktop){target=_blank} | <a href="https://de.cyverse.org/apps/de/26e8dca0-550b-11ee-8aa2-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=X.Org"></a> | [:material-github: Dockerfile](https://github.com/cyverse-vice/kasm-ubuntu){target=_blank} |
 
 -----------------------------------------------------------------------
 
@@ -86,10 +86,6 @@ Please cite CyVerse appropriately when you make use of our resources, see [CyVer
 
   - Search for an answer:
      [CyVerse Learning Center](https://learning.cyverse.org){target=_blank}
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/){target=_blank}
   - Send feedback: <tutorials@cyverse.org>
   
 ------------------------------------------------------------------------

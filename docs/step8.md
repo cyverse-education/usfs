@@ -241,10 +241,6 @@ Once you have completed your work, you can save your work to the Data Store and 
 
   - Search for an answer:
      [CyVerse Learning Center](https://learning.cyverse.org){target=_blank}
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/){target=_blank}
   - Send feedback: <tutorials@cyverse.org>
   
 ------------------------------------------------------------------------

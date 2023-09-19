@@ -2,18 +2,17 @@
 
 !!! Tip "Learning Objectives"
 
-     - Determine whether this course is right for you.
-     - Find documentation on the CyVerse Learning Center
-     - Create a CyVerse account
-
-
-**Description:**
-
-In this module, we introduce the course content and help you determine
-whether this course is right for you. We then show you how to create a
-CyVerse account and find more information in the Learning Center.
+     - Understand the history of CyVerse and how it is used
+     - Know where to locate user documentation on the [CyVerse Learning Center](https://learning.cyverse.org)
+     - Create a CyVerse [account](https://user.cyverse.org) and enroll in the [USDA Forest Service Workshop](https://user.cyverse.org/workshops/130)
+     - Understand how data management works in CyVerse Data Store
+     - Understand how to launch and complete Interactive applications in the Discovery Environment
 
 ------------------------------------------------------------------------
+
+This material is ported from the [CyVerse Self-Guided Tour](https://learning.cyverse.org/mooc/){target=_blank} and modified to applications more aligned with US Forest Service research.
+
+The original videos for the Self-Guided Tour are maintained for your reuse:
 
 > <div class="video-container">
 > <iframe width="600" height="400" src="https://www.youtube.com/embed/q6bFiHBmis0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,20 +35,11 @@ CyVerse account and find more information in the Learning Center.
 - Go to [![Learning](assets/cyverse_ball_2022.png){width="15"}](https://learning.cyverse.org/){target=_blank} [Learning Center](https://learning.cyverse.org){target=_blank}
 - Explore the menu items on the sidebar
 
-    :   -   Quick Start Guides will help you with quick, specific tasks
+    :   -   [Quick Start Guides](https://learning.cyverse.org/vice/quick-rstudio/){target=_blank} will help you with quick, specific tasks
         -   Platform Guides are more in-depth guides of CyVerse's
             platforms
-        -   Tutorials are start-to-finish lessons on accomplishing
+        -   [Tutorials](https://learning.cyverse.org/tutorials/){target=_blank} are start-to-finish lessons on accomplishing
             certain analyses and tasks using CyVerse
-
-??? Tip
- 
-    **See other versions of this documentation (CyVerse UK and CyVerse Austria)**
-    In the lower-left hand side of the screen, change the version of this
-    documentation from cyverse-us to one of the other documentation sets
-    developed for this online guide (*cyverse-uk* or *cyverse-at*) to see
-    specifics for those installations.
-
 
 ------------------------------------------------------------------------
 
@@ -81,10 +71,6 @@ CyVerse account and find more information in the Learning Center.
 
   - Search for an answer:
      [CyVerse Learning Center](https://learning.cyverse.org){target=_blank}
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/){target=_blank}
   - Send feedback: <tutorials@cyverse.org>
   
 ------------------------------------------------------------------------

@@ -24,9 +24,9 @@ In this module, we introduce executable analyses in the CyVerse Discovery Enviro
 
 | Location | File | Example |
 |----------|------|---------|
-| On CyVerse | `DE_sample_plants.fas` | View the [example folder](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc){target=_blank} |
+| On CyVerse | `ortho.tif` | View the [example folder](https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/Gillan_Ecosphere_2021/raster_products/Sept_2019/){target=_blank} |
 
-## Find a Tool and Launch an Analysis
+## Launch an Executable Analysis
 
 [de]: assets/de/logos/deIcon.svg
 [home]: assets/de/menu_items/homeIcon.svg
@@ -36,17 +36,14 @@ In this module, we introduce executable analyses in the CyVerse Discovery Enviro
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
-2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `results/` folder in the` tutorial_folder/`; click the (Add Folder button) and create a new folder called `muscle_output/` inside your tutorial folder.
+2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `tutorial_folder/`; click the (Add Folder button) and create a new folder called `gdal_output/` inside your `tutorial_output` folder.
 
-3.  Click [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} - Applications (including VICE interactive applications); search for "**Muscle-3.8.31**" with the search bar at top; Click on the application name to open the application.
+3.  Click [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} - Applications (including VICE interactive applications); You will begin in the **Featured Apps** section; Click on the application name in the search bar. Type "`gdal`" and hit Return. There should be an app with this name in the search results.
 
-4.  Under "Analysis Info", for **Output Folder** click **Browse** and
-    navigate to and select the **muscle\_output** created above. No
-    other changes are needed at this step, but you may edit the analysis
-    name or comments (optional).
-5.  Under "Select input data" click Browse, then navigate to the `raw_data/` folder in the `tutorial_folder` and select (checkbox) the `DE_sample_plants.fas` previously uploaded.
+4.  Under "Analysis Info", for **Output Folder** click **Browse** and navigate to and select the **tutorial_folder/gdal_output** created above. No other changes are needed at this step, but you may edit the analysis name or comments (optional)
 
-6.  Under "Sequence Type", select **DNA**.
+5. Click "Next :material-arrow-right:" or click on icon :material-numeric-2-circle: number "2" in the **Advanced Settings (optional).**. Set the "Minimum CPU Cores" to 8, and "Minimum Memory" to 64 GiB. Leave "Minimum Disk Space" open. Note: the "**Select Maximums**" cannot be changed - this tool can use up to 128 cores, which is the average size of our newer compute nodes in the Discovery Environment.
+6.  Under "Select input data" click Browse, then navigate to the `raw_data/` folder in the `tutorial_folder` and select a valid geotiff .tif file.
 
 7.  Under the optional "Advanced Settings", make no changes. If required, some analyses may be launched with requests for more minimum Resource Requirements, but this may cause those analyses to sit longer in the submission queue until a node matching those minimum requirements becomes available; click **Next**.
 
@@ -54,7 +51,17 @@ In this module, we introduce executable analyses in the CyVerse Discovery Enviro
 
 9.  You will receive a notification and be redirected to the [![][analysis]{width=20}](https://de.cyverse.org/analyses){target=_blank} [Analyses](https://de.cyverse.org/analyses){target=_blank} page.
 
-10. When Muscle analysis has the status **Completed**, you may click the folder icon next to the analysis name, to navigate to and browse the outputs for this analysis. You may need to refresh your web browser    to see the updated status.
+10. When the analysis has the status **Completed**, you may click the folder icon next to the analysis name, to navigate to and browse the outputs for this analysis. You may need to refresh your web browser to see the updated status.
+
+!!! Danger "Setting minimums"
+
+    As a general rule of thumb, the "**Advanced Settings (optional)**" tab can be passed over when starting an analysis. The Kubernetes scheduler provides everyone with at least 4 CPUs and 16 GiB of memory.
+
+    By asking for the "minimum" you're locking in that amount for your analysis. If the system is busy and there are many users on the VICE cluster, asking for an entire 128 CPU node may leave you in a queue, waiting minutes or hours for a free resource to become available. 
+
+    Its a good rule of thumb, and a neighborly courtesy to other users not to ask for maximum CPU and RAM unless absolutely necessary. 
+
+    More importantly, asking for larger minimums will result in a faster burn rate for your CPU hours, 1 allocation unit = 1 CPU core / hour.
 
 ------------------------------------------------------------------------
 
@@ -62,11 +69,10 @@ In this module, we introduce executable analyses in the CyVerse Discovery Enviro
 
 | Location | File | Example |
 |----------|------|---------|
-| `muscle_output/`  | logs folder | [View the example `muscle_output/`](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/cyverse_mooc/tutorial_folder/results/muscle_output){target=_blank} |
-| `clstalw.aln` | `.aln` are multi-alignment files |
-| `fasta.aln` | | 
-| `phylip_interleaved.aln` | | 
-| `phylip_sequential.aln` | |
+| `pdal_outputs/`  | output folder | [View the example `pdal_outputs/`](https://data.cyverse.org/dav-anon/iplant/home/shared/usda/usfs/r3/coconino/training_data/mahan){target=_blank} |
+| `ept2copc.json` | PDAL pipeline `.json` | the input for the app |
+| `mahan.copc.laz` | `.laz` format with COPC |
+| `mahan_dem.tif` | `.tif` file from GDAL | 
 
 ------------------------------------------------------------------------
 
@@ -106,10 +112,6 @@ In this module, we introduce executable analyses in the CyVerse Discovery Enviro
 
   - Search for an answer:
      [CyVerse Learning Center](https://learning.cyverse.org){target=_blank}
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/){target=_blank}
   - Send feedback: <tutorials@cyverse.org>
   
 ------------------------------------------------------------------------

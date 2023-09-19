@@ -27,7 +27,7 @@ nav:
   - 'Analyses':
     - 'Executable Analysis': step7.md
     - 'Interactive Analysis': step8.md
-  - 'Conclusion and Advanced Applications': final_step.md    
+  - 'Advanced Applications': final_step.md    
 
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
 theme:

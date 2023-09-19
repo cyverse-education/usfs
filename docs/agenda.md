@@ -22,12 +22,12 @@ September 19-20, 2023
 | 08:00 | Introduction | Tyson | [Presentation: CyVerse](https://tinyurl.com/usfs-cyverse){target=_blank} |
 | 08:30 | [Session 1: Account Creation & User Portal](https://learning.cyverse.org/account/){target=_blank} | Tyson |[Workshop sign-up](https://user.cyverse.org/workshops/130){target=_blank} |
 | 09:00 | Break | |
-| 09:05 | [Session 2: Discovery Environment (DE) UI](step3.md) |  Jeff | [DE User Manual](https://learning.cyverse.org/de/){target=_blank} |
-| 09:30 | [Session 3: Data Store I](step4.md) | Tyson | 
+| 09:05 | [Session 2: Discovery Environment (DE) UI](step3.md) |  Tyson | [DE User Manual](https://learning.cyverse.org/de/){target=_blank} |
+| 09:30 | [Session 3: Data Store I](step4.md) | Michele | 
 | 10:00 | Break | | |
-| 10:05 | [Session 4: Data Store II](step5.md) | Tyson | 
+| 10:05 | [Session 4: Data Store II](step5.md) | Michele | 
 | 11:00 | Break | | |
-| 11:05 | [Session 5: DE Interactive Analyses](step8.md) | Michele | |
+| 11:05 | [Session 5: DE Interactive Analyses](step8.md) | Tyson | |
 | 11:45 | Wrap-up / Q&A |  |
 
 
@@ -41,17 +41,10 @@ September 19-20, 2023
 | 09:05 | [Session 7: Exploring VICE Apps ](step8.md) |  Jeff 
 | 10:00 | Break | |
 | 10:05 | [Session 8: Create Tools & Apps](https://learning.cyverse.org/de/create_apps/) | Tyson |
-| 10:30 | [Session 9: Teams & Communities](https://learning.cyverse.org/ds/teams/) | | |
+| 10:30 | [Session 9: Teams & Communities](https://learning.cyverse.org/ds/teams/) | Michele | |
 | 11:00 | Break | | |
-| 11:05 | [Session 10: Cloud-Native Services]() | | |
+| 11:05 | [Session 10: Cloud-Native Services]() | Edwin | |
 | 11:45 | Wrap-up / Q&A | 
-
- 
-## Pre-requisites
-
-:material-check: a laptop with an active wifi connection
-
-:material-chekc: a CyVerse account
 
 ## Code of Conduct
 
