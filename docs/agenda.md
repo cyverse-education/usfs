@@ -19,16 +19,16 @@ September 19-20, 2023
 
 | :fontawesome-solid-hourglass-half: | Lessons | Instructor | Link |
 |------------------------------------|---------|------------|------|
-| 08:00 | Introduction | Tyson | [Presentation: CyVerse](https://tinyurl.com/usfs-cyverse){target=_blank} |
-| 08:30 | [Session 1: Account Creation & User Portal](https://learning.cyverse.org/account/){target=_blank} | Tyson |[Workshop sign-up](https://user.cyverse.org/workshops/130){target=_blank} |
-| 09:00 | Break | |
-| 09:05 | [Session 2: Discovery Environment (DE) UI](step3.md) |  Tyson | [DE User Manual](https://learning.cyverse.org/de/){target=_blank} |
-| 09:30 | [Session 3: Data Store I](step4.md) | Michele | 
-| 10:00 | Break | | |
-| 10:05 | [Session 4: Data Store II](step5.md) | Michele | 
+| 09:00 | Introduction | Tyson | [Presentation: CyVerse](https://tinyurl.com/usfs-cyverse){target=_blank} |
+| 09:30 | [Session 1: Account Creation & User Portal](https://learning.cyverse.org/account/){target=_blank} | Tyson |[Workshop sign-up](https://user.cyverse.org/workshops/130){target=_blank} |
+| 10:00 | Break | |
+| 10:05 | [Session 2: Discovery Environment (DE) UI](step3.md) |  Tyson | [DE User Manual](https://learning.cyverse.org/de/){target=_blank} |
+| 10:30 | [Session 3: Data Store I](step4.md) | Michele | 
 | 11:00 | Break | | |
-| 11:05 | [Session 5: DE Interactive Analyses](step8.md) | Tyson | |
-| 11:45 | Wrap-up / Q&A |  |
+| 11:05 | [Session 4: Data Store II](step5.md) | Michele | 
+| 12:00 | Break | | |
+| 12:05 | [Session 5: DE Interactive Analyses](step8.md) | Tyson | |
+| 12:45 | Wrap-up / Q&A |  |
 
 
 ## Agenda Wednesday 9/20
